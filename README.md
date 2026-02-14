@@ -89,8 +89,7 @@ Keras model deserialization errors
 
 Solved by rebuilding the model architecture and loading weights only
 
-**Future Improvements
-**
+****Future Improvements**
 Real-time webcam emotion detection
 
 Multi-face detection support
