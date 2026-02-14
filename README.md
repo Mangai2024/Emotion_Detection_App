@@ -34,7 +34,7 @@ It uses a Convolutional Neural Network (CNN) trained on the **FER-2013 dataset**
 
 Hugging Face Spaces
 
-Project Workflow
+**Project Workflow**
 
 Data preprocessing of FER-2013 dataset
 
@@ -48,8 +48,8 @@ Creating Streamlit web interface
 
 Deploying the app on Hugging Face
 
-Model Architecture
-
+****Model Architecture
+****
 Convolutional layers for feature extraction
 
 MaxPooling layers for downsampling
