@@ -2,9 +2,7 @@ Emotion Detection using CNN
 Project Overview
 
 This project is a deep learning–based web application that detects human emotions from facial images.
-It uses a Convolutional Neural Network (CNN) trained on the FER-2013 dataset and is deployed as an interactive web app using Streamlit on Hugging Face Spaces.
-
-The model classifies images into seven emotion categories.
+It uses a Convolutional Neural Network (CNN) trained on the FER-2013 dataset and is deployed as an interactive app using Streamlit on Hugging Face Spaces.
 
 Emotions Detected
 
@@ -38,87 +36,64 @@ Hugging Face Spaces
 
 Project Workflow
 
-Data collection using FER-2013 dataset
+Data preprocessing of FER-2013 dataset
 
-Image preprocessing and normalization
-
-Building a CNN model
+Building the CNN architecture
 
 Training and evaluating the model
 
 Saving trained model weights
 
-Creating a Streamlit web interface
+Creating Streamlit web interface
 
 Deploying the app on Hugging Face
 
 Model Architecture
 
-The CNN model consists of:
-
 Convolutional layers for feature extraction
 
-MaxPooling layers for dimensionality reduction
+MaxPooling layers for downsampling
 
 Fully connected dense layers
 
-Dropout for regularization
+Dropout for overfitting prevention
 
 Softmax output layer for emotion classification
 
-How to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/your-username/emotion-detection.git
-
-
-Navigate to the project folder:
-
-cd emotion-detection
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the Streamlit app:
-
-streamlit run app.py
-
-Live Demo
-
-Deployed on Hugging Face:
-https://huggingface.co/spaces/Mangai2024/Emotion_Detection
-
-Features
+Key Features
 
 Upload a face image
 
-Predict emotion instantly
+Real-time emotion prediction
 
 Confidence score display
 
 Clean and interactive UI
 
+Public deployment on Hugging Face
+
+Live Demo
+
+Try the app here:
+https://huggingface.co/spaces/Mangai2024/Emotion_Detection
+
 Challenges Faced
 
-Model file path issues during deployment
+Model file path mismatch during deployment
 
 TensorFlow and Python version conflicts
 
 Keras model deserialization errors
 
-Solved by rebuilding architecture and loading weights
+Solved by rebuilding the model architecture and loading weights only
 
 Future Improvements
 
 Real-time webcam emotion detection
 
-Multi-face detection
+Multi-face detection support
 
-Model accuracy improvement
+Model accuracy enhancement
 
 Mobile-friendly UI
 
@@ -126,3 +101,4 @@ Author
 
 Mangai
 Aspiring Data Scientist / AI Engineer
+Open to Data Science, ML, and AI opportunities
