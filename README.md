@@ -1,36 +1,36 @@
-Emotion Detection using CNN
-Project Overview
+**Emotion Detection using CNN
+Project Overview**
 
 This project is a deep learning–based web application that detects human emotions from facial images.
-It uses a Convolutional Neural Network (CNN) trained on the FER-2013 dataset and is deployed as an interactive app using Streamlit on Hugging Face Spaces.
+It uses a Convolutional Neural Network (CNN) trained on the **FER-2013 dataset** and is deployed as an interactive app using Streamlit on Hugging Face Spaces.
 
-Emotions Detected
+**Emotions Detected**
 
-Angry
+**Angry**
 
-Disgust
+**Disgust**
 
-Fear
+**Fear**
 
-Happy
+**Happy**
 
-Sad
+**Sad**
 
-Surprise
+**Surprise**
 
-Neutral
+**Neutral**
 
-Tech Stack
+**Tech Stack**
 
-Python
+**Python**
 
-TensorFlow / Keras
+**TensorFlow / Keras**
 
-NumPy
+**NumPy**
 
-Pillow
+**Pillow**
 
-Streamlit
+**Streamlit**
 
 Hugging Face Spaces
 
@@ -60,7 +60,7 @@ Dropout for overfitting prevention
 
 Softmax output layer for emotion classification
 
-Key Features
+**Key Features**
 
 Upload a face image
 
@@ -74,10 +74,12 @@ Public deployment on Hugging Face
 
 Live Demo
 
-Try the app here:
+**Live App**
+
+🔗** Try the deployed application:**
 https://huggingface.co/spaces/Mangai2024/Emotion_Detection
 
-Challenges Faced
+**Challenges Faced**
 
 Model file path mismatch during deployment
 
@@ -87,8 +89,8 @@ Keras model deserialization errors
 
 Solved by rebuilding the model architecture and loading weights only
 
-Future Improvements
-
+**Future Improvements
+**
 Real-time webcam emotion detection
 
 Multi-face detection support
@@ -97,7 +99,7 @@ Model accuracy enhancement
 
 Mobile-friendly UI
 
-Author
+**Author**
 
 Mangai
 Aspiring Data Scientist / AI Engineer
