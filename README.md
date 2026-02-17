@@ -1,8 +1,8 @@
-**Emotion Detection using CNN
+****Emotion Detection using CNN**
 
 https://huggingface.co/spaces/Mangai2024/Emotion_Detection?logs=container
 
-Project Overview**
+**Project Overview****
 
 This project is a deep learning–based web application that detects human emotions from facial images.
 It uses a Convolutional Neural Network (CNN) trained on the **FER-2013 dataset** and is deployed as an interactive app using Streamlit on Hugging Face Spaces.
@@ -51,8 +51,8 @@ Creating Streamlit web interface
 
 Deploying the app on Hugging Face
 
-****Model Architecture
-****
+******Model Architecture**
+
 Convolutional layers for feature extraction
 
 MaxPooling layers for downsampling
