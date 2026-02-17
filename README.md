@@ -1,4 +1,7 @@
 **Emotion Detection using CNN
+
+https://huggingface.co/spaces/Mangai2024/Emotion_Detection?logs=container
+
 Project Overview**
 
 This project is a deep learning–based web application that detects human emotions from facial images.
